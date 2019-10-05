@@ -44,6 +44,19 @@ where player_id = 1;
 select * from labwork1.casino;
 
 
+select player_id, bet from labwork1.casino
+where player_id = 1;
+
+select player_id, bet from labwork1.casino
+where player_id = 1;
+
+select account_id, money_for_game, sold_money from labwork1.bank
+where client_id = 1;
+
+select account_id, money_for_game, sold_money, sold_time  from labwork1.bank
+where client_id = 1;
+
+
 delete game_played 
 from labwork1.casino
 where player_id = 3;
