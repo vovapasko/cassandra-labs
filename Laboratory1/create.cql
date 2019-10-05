@@ -10,7 +10,8 @@ Create Type if not exists labwork1.user_name_type(
 
 CREATE TABLE IF NOT EXISTS labwork1.player(
 	player_id int,
-	player_balance int, 
+	player_password text,
+	player_balance int,
 	player_name frozen<user_name_type>,
 	Primary key(player_id)
 );
